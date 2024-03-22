@@ -1,0 +1,95 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-content{
+    width: 620px;
+    max-width: 620px;
+    margin: auto;
+}
+
+.main-content .container{
+    padding: 0 15px;
+}
+
+.main-content .logo{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+.main-content .title h2{
+    color: rgb(82, 87, 90);
+    font-size: 30px;
+}
+
+.main-content .title h3{
+    color: rgb(71, 76, 79);
+    font-size: 25px;
+}
+
+.main-content .list .list-title{
+    color: rgb(95, 99, 104);
+    font-size: 18px;
+}
+
+.main-content .list ul li{
+    margin-bottom: 10px;
+}
+
+.main-content .list ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: rgb(95, 99, 104);
+}
+
+.main-content .list .err{
+    color: rgb(95, 99, 104);
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.main-content .re-load{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.main-content .re-load button{
+    text-transform: capitalize;
+    background: #1a73e8;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 6px;
+    border: none;
+    font-size: 18px;
+}
+
+.main-content .re-load button:hover{
+    background: transparent;
+    border: 1px solid rgb(89, 94, 99);
+    color: rgb(95, 99, 104);
+}
+
+.main-content .re-load a{
+    display: inline-block;
+    margin-left: auto;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 1px solid rgb(89, 94, 99);
+    padding: 8px 15px;
+    border-radius: 6px;
+    color: rgb(71, 75, 79);
+}
+
+.main-content .re-load a:hover{
+    color: #1a73e8;
+}
